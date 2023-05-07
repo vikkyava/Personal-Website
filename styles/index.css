@@ -1,0 +1,129 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 50px 120px;
+  display: flex;
+  flex-direction: column;
+  background-color: #cfdbd5;
+}
+main {
+  background-image: url("../Images/thedark.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 480px;
+  margin-bottom: 0;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+  top: 50px;
+  left: 150px;
+  width: 280px;
+}
+.header1 {
+  font-size: 60px;
+}
+.intro p {
+  line-height: 1.5rem;
+}
+#cv-btn {
+  padding: 10px;
+  font-size: 20px;
+  width: 250px;
+  background-color: #333533;
+  color: #e8eddf;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.first-img {
+  position: absolute;
+  top: 180px;
+  right: 250px;
+  width: 360px;
+  height: 440px;
+  border-radius: 10px;
+}
+#second-ctn {
+  margin: 0;
+  height: 600px;
+  background-color: #fbfefb;
+  color: #242423;
+}
+.header2 {
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+.header2 h2 {
+  font-size: 50px;
+  font-weight: bold;
+  width: 200px;
+}
+#aim {
+  font-size: 16px;
+  line-height: 1.5rem;
+  width: 350px;
+}
+.motion {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 150px;
+  height: 200px;
+}
+.selfie-img {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  outline: 1px solid blue;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.selfie-img img {
+  width: 100%;
+  /* height: 100%; */
+}
+
+.header3 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.education h2 {
+  margin-bottom: 20px;
+}
+.education p {
+  line-height: 1.5rem;
+}
+.third-ctn {
+  margin: 0;
+  height: 500px;
+  background-image: url("../Images/thedark.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+#skill-container {
+  position: relative;
+  top: 50px;
+  left: 150px;
+}
+.third-ctn h2 {
+  font-size: 50px;
+}
+.third-ctn h3 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.skill-items {
+  list-style-type: none;
+}
