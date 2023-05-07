@@ -7,7 +7,7 @@ html {
   box-sizing: border-box;
 }
 body {
-  margin: 50px 120px;
+  margin: 50px 120px 0;
   display: flex;
   flex-direction: column;
   background-color: #cfdbd5;
@@ -55,13 +55,13 @@ main {
 }
 #second-ctn {
   margin: 0;
-  height: 600px;
+  height: 900px;
   background-color: #fbfefb;
   color: #242423;
 }
 .header2 {
   position: relative;
-  top: 50px;
+  top: 60px;
   left: 100px;
 }
 .header2 h2 {
@@ -85,13 +85,30 @@ main {
   position: relative;
   width: 250px;
   height: 250px;
-  outline: 1px solid blue;
   overflow: hidden;
   border-radius: 10px;
 }
 .selfie-img img {
   width: 100%;
   /* height: 100%; */
+}
+#soft-skills {
+  width: 350px;
+  margin-top: 50px;
+}
+.skills-section {
+  padding: 30px;
+  height: 100px;
+}
+#first-skill {
+  background: #ced4da;
+}
+#second-skill {
+  background: #0b090a;
+  color: #ffffff;
+}
+#third-skill {
+  background: ##ced4da;
 }
 
 .header3 {
@@ -106,7 +123,7 @@ main {
 }
 .third-ctn {
   margin: 0;
-  height: 500px;
+  height: 900px;
   background-image: url("../Images/thedark.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -126,4 +143,39 @@ main {
 }
 .skill-items {
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
+.skill-list {
+  width: 600px;
+  height: 50px;
+  padding: 20px;
+  background-color: #ced4da;
+  color: #212529;
+  font-weight: bold;
+}
+
+#experience-p {
+  width: 400px;
+  margin-top: 40px;
+  line-height: 1.5em;
+}
+.contact {
+  position: relative;
+  top: 100px;
+  left: 100px;
+  line-height: 2em;
+}
+.contact h2 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+footer {
+  height: 200px;
+  margin-top: 30px;
+}
+.svg-icons {
+  width: 30px;
+}
+
